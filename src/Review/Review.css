@@ -1,0 +1,28 @@
+.img-container {
+  height: 10rem;
+  width: 10rem;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+#job {
+  color: rgb(96, 168, 227);
+  text-transform: uppercase;
+}
+
+#author {
+  text-transform: capitalize;
+}
